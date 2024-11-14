@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color:rgb(255, 186, 59);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cim1{
+    width: 35%;
+    height: 34%;
+    background-color: rgb(255, 186, 59);
+    color: white;
+}
+.cim2{
+    width: 40%;
+    height: 28%;
+    background-color: rgb(255, 186, 59);
+    color: white;
+}
+.cim3{
+    width: 25%;
+    height: 25%;
+    background-color: rgb(255, 186, 59);
+    color: white;
+}
+.cim4{
+    width: 25%;
+    height: 25%;
+    background-color: rgb(255, 186, 59);
+    color: white;
+}
+.cim5{
+    width: 33%;
+    height: 25%;
+    background-color: rgb(255, 186, 59);
+    color: white;
+}
+.cim6{
+    width: 35%;
+    height: 44%;
+    background-color: rgb(255, 186, 59);
+    color: white;
+}
+.cim7{
+    width: 75%;
+    height: 24%;
+    background-color: rgb(255, 186, 59);
+    color: white;
+}
+.cim8{
+    width: 70%;
+    height: 28%;
+    background-color: rgb(255, 186, 59);
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    gap: 20px;
+}
+.section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+.section p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.section ul li {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: rgb(255, 186, 59);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.button{
+    border: none;
+    background-color: rgb(255, 186, 59);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
